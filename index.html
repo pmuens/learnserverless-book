@@ -1,0 +1,264 @@
+<html>
+  <head>
+    <title>Book about the serverless.com framework - Learn Serverless</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header class="twelve columns">
+          <h1 class="capitalize">The "Learn Serverless" book</h1>
+          <h2 class="centered-text">Learn how to build modern, monstrously scalable serverless applications from scratch</h2>
+          <p class="centered-text">Subscribe to the newsletter on our <a href="http://justserverless.com/blog" target="_blank">homepage</a> to get notified about updates</p>
+          <hr />
+          <ul class="navigation capitalize">
+            <li><a href="#what-is-serverless">What is Serverless?</a></li>
+            <li><a href="#what-you-will-get">What you'll get</a></li>
+            <li><a href="#table-of-contents">Table of contents</a></li>
+            <li><a href="#about-the-author">About the author</a></li>
+          </ul>
+          <hr />
+        </header>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <div class="row">
+            <div class="six columns">
+              <button class="u-full-width button-primary" data-id="get-book-button">I want this book</button>
+            </div>
+            <div class="six columns">
+              <a href="https://github.com/justserverless/learnserverless-book/issues" target="_blank" class="u-full-width button">I want to leave feedback / propose content</a>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <section class="twelve columns">
+          <h1 class="capitalize" id="what-is-serverless">What is Serverless?</h1>
+          <p>
+            <a href="http://serverless.com" target="_blank">Serverless</a> is a new framework which makes it easy to build modern, high scalable web applications easily.<br />
+            It utilizes Amazon web services (AWS) and helps you organize and deploy your resources (e.g. Lambdas, DynamoDB, S3, ...) easily.<br /><br/>
+            Watch the <a href="https://www.youtube.com/watch?v=D_U6luQ6I90" target="_blank">AWS re:Invent talk</a> or read <a href="https://serverlesscode.com/post/david-guetta-online-recording-with-lambda/" target="_blank">some</a> success <a href="http://microapps.com/blog/serverless-framework/" target="_blank">stories</a> to get excited.
+          </p>
+        </section>
+      </div>
+      <div class="row">
+        <section class="twelve columns">
+          <h1 class="capitalize" id="what-you-will-get">What you'll get</h1>
+          <div class="row">
+            <div class="four columns feature">
+              <i class="fa fa-check"></i>
+              <h2>Free version</h2>
+              <p>The free version of the book contains a step-by-step process where we'll create a Serverless application from start to finish.</p>
+            </div>
+            <div class="four columns feature">
+              <i class="fa fa-book"></i>
+              <h2>Content and code</h2>
+              <p>Learn and understand every aspect of the Serverless framework while building awesome apps.</p>
+            </div>
+            <div class="four columns feature">
+              <i class="fa fa-refresh"></i>
+              <h2>Updates</h2>
+              <p><a href="https://github.com/serverless/serverless/contributors" target="_blank">Awesome people</a> contribute to the Serverless framework on a daily basis. We'll keep the book updated to reflect those changes.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="row">
+        <section class="twelve columns">
+          <h1 class="capitalize" id="table-of-contents">Table of contents</h1>
+          <div class="row">
+            <ol class="capitalize">
+              <div class="six columns">
+                <li>Introduction <span class="free-badge">free!</span></li>
+                <li>Getting started <span class="free-badge">free!</span></li>
+                <li>AWS fundamentals </li>
+                <ol>
+                  <li>What is AWS?</li>
+                  <li>IAM</li>
+                  <li>Lambda</li>
+                  <li>CloudFormation</li>
+                  <li>API Gateway</li>
+                  <li>S3</li>
+                  <li>DynamoDB</li>
+                  <li>Cognito</li>
+                </ol>
+                <li>The serverless architecture on AWS</li>
+                <ol>
+                  <li>Used components</li>
+                  <li>Differences to other architectures</li>
+                </ol>
+                <li>Overview of the Serverless.com framework</li>
+                <ol>
+                  <li>What's provided</li>
+                  <li>Developing plugIns</li>
+                  <li>Developing modules</li>
+                </ol>
+              </div>
+              <div class="six columns">
+                <li>"Notes" app <span class="free-badge">free!</span></li>
+                  <ol>
+                    <li>Overview <span class="free-badge">free!</span></li>
+                    <li>CRUD implementations <span class="free-badge">free!</span></li>
+                    <li>The frontend <span class="free-badge">free!</span></li>
+                    <li>Connecting frontend and backend <span class="free-badge">free!</span></li>
+                  </ol>
+                <li>"Sonar" app (Twitter clone)</li>
+                  <ol>
+                    <li>Overview</li>
+                    <li>CRDU implementations</li>
+                    <li>Authentication</li>
+                    <li>Frontend</li>
+                    <li>Connecting frontend and backend</li>
+                  </ol>
+                <li>Going live</li>
+                <ol>
+                  <li>Multi region deployments</li>
+                  <li>Estimating the AWS costs</li>
+                  <li>Get the most out of AWS</li>
+                </ol>
+                <li>Bonus: Serverless PlugIn development</li>
+              </div>
+            </ol>
+          </div>
+        </section>
+      </div>
+      <div class="row">
+        <section class="twelve columns">
+          <h1 class="capitalize" id="about-the-author">About the author</h1>
+          <div class="portrait">
+            <img src="https://avatars0.githubusercontent.com/u/1606004?v=3&s=400" width="150"/>
+          </div>
+          <div class="biography">
+            <p>
+              I'm Philipp Müns, a full stack web developer from Germany.<br />
+              My involvement into web technologies dates back to the late 90s when I was still in school.<br /><br />
+
+              I'm working at <a href="http://goltfisch.de" target="_blank">Goltfisch</a> where we use the newest web technologies
+              to create scalable and modern web based applications.<br /><br />
+
+              I stumbled upon the Serverless framework when it was <a href="https://news.ycombinator.com/item?id=10005415" target="_blank">announced on Hacker News</a> and was immediately hooked.
+              To spread the word about this fascinating new technology I started the blog <a href="http://justserverless.com/blog" target="_blank">Just Serverless</a>
+              and the learning platform <a href="http://learnserverless.com" target="_blank">Learn Serverless</a>.<br /><br />
+
+              Let's talk! You can reach me on <a href="https://twitter.com/pmmuens" target="_blank">Twitter</a> or <a href="https://github.com/pmuens" target="_blank">GitHub</a>.
+            </p>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="row">
+          <div class="twelve columns">
+            <a href="http://www.goltfisch.de/impressum" target="_blank">Imprint</a>
+          </div>
+        </div>
+      </footer>
+      <div class="back-to-top">
+        <a href="#">The only way is up <i class="fa fa-chevron-up"></i></a>
+      </div>
+    </div>
+    <style>
+      h1 {
+        margin: 25px 0;
+        text-align: center;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+      p {
+        color: #BDBDBD;
+      }
+      .centered-text {
+        text-align: center;
+      }
+      .capitalize {
+        text-transform: capitalize;
+      }
+
+      span.free-badge {
+        color: #FF0000;
+        font-style: italic;
+      }
+
+      .feature {
+        text-align: center;
+      }
+      .feature p {
+        text-align: left;
+      }
+      .feature .fa {
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+
+      ul.navigation {
+        list-style: none;
+        text-align: center;
+      }
+      ul.navigation > li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      ul.navigation > li:last-child {
+        margin-right: 0;
+      }
+
+      section {
+        margin-bottom: 60px;
+      }
+      section h1 {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+
+      .portrait {
+        float: left;
+      }
+      .portrait img {
+        border-radius: 100%;
+      }
+      .biography {
+        margin-left: 175px;
+      }
+
+      .sa-button-container button {
+        height: 100%;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      .back-to-top a {
+        text-decoration: none;
+      }
+    </style>
+    <script type="text/javascript">
+      $('[data-id=get-book-button]').on('click', function () {
+        swal({
+          title: 'Thank you!',
+          text: 'You will be redirected to our justserverless.com website. Please subscribe to our newsletter (yellow box on the right side) to get notified about the books process.',
+          type: 'success',
+          showCancelButton: true,
+          confirmButtonColor: '#33C3F0',
+          confirmButtonText: 'Alright, let\'s go!',
+          closeOnConfirm: false
+        }, function () {
+          window.open('http://justserverless.com?ref=learnserverless-book', '_blank');
+        });
+      });
+    </script>
+  </body>
+</html>
