@@ -1,5 +1,5 @@
 # [Learn Serverless book](http://learnserverless.com)
 This is the source code of the "Learn Servereless" book homepage.
 
-## Disouss about the content
+## Discuss about the content
 Join the discussions about the book [here](http://github.com/justserverless/learnserverless-book/issues)
