@@ -30,7 +30,7 @@
         <div class="twelve columns">
           <div class="row">
             <div class="six columns">
-              <button class="u-full-width button-primary" data-id="get-book-button">I want this book</button>
+              <a href="http://gum.co/learn-serverless-book/early-bird" class="u-full-width button button-primary">Get the book</a>
             </div>
             <div class="six columns">
               <a href="https://github.com/justserverless/learnserverless-book/issues" target="_blank" class="u-full-width button">I want to leave feedback / propose content</a>
@@ -261,20 +261,5 @@
         text-decoration: none;
       }
     </style>
-    <script type="text/javascript">
-      $('[data-id=get-book-button]').on('click', function () {
-        swal({
-          title: 'Thank you!',
-          text: 'You will be redirected to our justserverless.com website. Please subscribe to our newsletter (yellow box on the right side) to get notified about the books process.',
-          type: 'success',
-          showCancelButton: true,
-          confirmButtonColor: '#33C3F0',
-          confirmButtonText: 'Alright, let\'s go!',
-          closeOnConfirm: false
-        }, function () {
-          window.open('http://justserverless.com/blog?ref=learnserverless-book', '_blank');
-        });
-      });
-    </script>
   </body>
 </html>
