@@ -1,4 +1,4 @@
-# [Learn Serverless book](http://learnserverless.com)
+# [Learn Serverless book](http://learnserverless.club)
 This is the source code of the "Learn Servereless" book homepage.
 
 ## Discuss about the content
