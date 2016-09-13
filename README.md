@@ -1,3 +1,3 @@
 # Learn Serverless book
 
-**Note:** I'm currently working on an updated version of this book
+**Note:** This book has been deprecated. See the new, open sourced Serverless book [here](https://github.com/pmuens/serverless-book).
