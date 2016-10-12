@@ -1,4 +1,4 @@
-# :book: Learn Serverless book
+# Learn Serverless book
 
 **Note:** This book has been DEPRECATED.
 
